@@ -29,7 +29,7 @@ PGPLOT_LIB_DIR = /usr/local/lib
 X11_INCLUDE_DIR = /usr/local/include/X11
 X11_LIB_DIR = /usr/local/lib/X11
 
-LCPGPLOT = -L$(PGPLOT_LIB_DIR) -lcpgplot -lpgplot  -L$(X11_LIB_DIR) -lX11 -lpng -pg -lgfortran # -L/sw/lib -lg2c -pg
+LCPGPLOT = -L$(PGPLOT_LIB_DIR) -lcpgplot -lpgplot  -L$(X11_LIB_DIR) -lX11 -lpng -pg -lgfortran -lm# -L/sw/lib -lg2c -pg
 
 
 ### C COMPILER AND FLAGS ###
